@@ -1161,7 +1161,7 @@ Davis.history = (function () {
    */
   function onChange(handler) {
     onPushState(handler);
-    onPopState(wrapped(handler));
+    //onPopState(wrapped(handler));
   };
 
   /*!
